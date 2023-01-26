@@ -20,3 +20,15 @@ yarn add -D @types/bull
 ```shell
 yarn start dev
 ```
+
+## build up with k8s helm
+
+```shell
+cd k8s/nestjs-bullmq
+helm install nestjs-bullmq .
+```
+## remove from k8s 
+```shell
+cd k8s/nestjs-bullmq
+helm uninstall nestjs-bullmq 
+```
